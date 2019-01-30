@@ -6,7 +6,8 @@ import * as mongoose from "mongoose";
 class App {
     public app : express.Application=express();
     public routePrv: Routes = new Routes();
-    public mongoUrl: string = 'mongodb://localhost:27017/CRMdb';  
+    //public mongoUrl: string = 'mongodb://localhost:27017/CRMdb';
+    public mongoUrl : string = process.env.MONGODB_URI;  
 
     constructor(){
     this.config();    
