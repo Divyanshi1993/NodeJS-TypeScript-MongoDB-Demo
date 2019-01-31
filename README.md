@@ -52,13 +52,11 @@ npm run prod
 
 ## Testing
 
-The default URL is: *http://localhost:3500*
-
 + GET all contacts
 
 ```
-Send POST request to http://localhost:3500/contact/
-Send GET request to http://localhost:3500/contact/
+Send POST request to https://rest-api-typescript-monodb.herokuapp.com/contact/
+Send GET request to https://rest-api-typescript-monodb.herokuapp.com/contact/
 ```
 
 
