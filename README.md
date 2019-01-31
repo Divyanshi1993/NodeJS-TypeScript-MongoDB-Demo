@@ -1,6 +1,12 @@
-# Building RESTful Web APIs with Node.js, Express, MongoDB and TypeScript
+# RESTful Web APIs with Node.js, Express, MongoDB and TypeScript
 
 This is a simple API that saves contact information of people. 
+
+## Currently deployed on Heroku at URL
+
+```
+https://rest-api-typescript-monodb.herokuapp.com/
+```
 
 ## Requirements
 
@@ -44,15 +50,15 @@ Run in production mode
 npm run prod
 ```
 
-## Testing over HTTP (tag [v1.0.0](https://github.com/Divyanshi1993/rest-api-node-typescript-mongodb)
+## Testing
 
 The default URL is: *http://localhost:3500*
 
 + GET all contacts
 
 ```
+Send POST request to http://localhost:3500/contact/
 Send GET request to http://localhost:3500/contact/
 ```
 
-The default URL is: *https://localhost:3500*
 
